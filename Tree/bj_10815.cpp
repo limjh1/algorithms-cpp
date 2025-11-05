@@ -1,3 +1,7 @@
+// link: https://www.acmicpc.net/problem/10815
+// date: 2025-11-04
+// idea: map, o((N+M) log N)
+
 #include <iostream>
 #include <map>
 

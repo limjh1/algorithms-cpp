@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\BruteForce">
+      <UniqueIdentifier>{d2ba6af1-1b23-4d41-837f-3992b44155ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tree">
+      <UniqueIdentifier>{7a90fca9-8e5c-4643-9c01-a93f4333aa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bit Manipulation">
+      <UniqueIdentifier>{792b3306-9fe7-4b3a-839f-ce7eba7f0b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graph">
+      <UniqueIdentifier>{74e4f739-8104-4b10-9f8f-51ba3e6d2c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{013be7f1-f5e6-4357-8106-555edd881245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\String">
+      <UniqueIdentifier>{85b5cc1a-2d83-4167-af9b-66f244df78af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graph\BFS">
+      <UniqueIdentifier>{b879b570-af2a-4468-b317-39bcb4039c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tree\Map">
+      <UniqueIdentifier>{59231a02-efce-4219-9146-d39b9cf680df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bit Manipulation\HR_CounterGame.cpp">
+      <Filter>소스 파일\Bit Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\bj_9012.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce\bj_2798.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_2908.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_5622.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_9086.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_10809.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_11654.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_11718.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_11720.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_27866.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_1152.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_2675.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\bj_2743.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Map\bj_7785.cpp">
+      <Filter>소스 파일\Tree\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Map\bj_10815.cpp">
+      <Filter>소스 파일\Tree\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Map\bj_10816.cpp">
+      <Filter>소스 파일\Tree\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Map\bj_14425.cpp">
+      <Filter>소스 파일\Tree\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Map\bj_1269.cpp">
+      <Filter>소스 파일\Tree\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Map\bj_1620.cpp">
+      <Filter>소스 파일\Tree\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Map\bj_1764.cpp">
+      <Filter>소스 파일\Tree\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\BFS\HR_TheQuickestWayUp.cpp">
+      <Filter>소스 파일\Graph\BFS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\jhlim\\algorithms-cpp\\WhiteBoard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A24FB5D8-C707-4D23-9070-B99231FFB60A}|WhiteBoard\\WhiteBoard.vcxproj|E:\\jhlim\\algorithms-cpp\\WhiteBoard\\WhiteBoard\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A24FB5D8-C707-4D23-9070-B99231FFB60A}|WhiteBoard\\WhiteBoard.vcxproj|solutionrelative:WhiteBoard\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24FB5D8-C707-4D23-9070-B99231FFB60A}|WhiteBoard\\WhiteBoard.vcxproj|E:\\jhlim\\algorithms-cpp\\WhiteBoard\\WhiteBoard\\BruteForce\\bj_2798.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A24FB5D8-C707-4D23-9070-B99231FFB60A}|WhiteBoard\\WhiteBoard.vcxproj|solutionrelative:WhiteBoard\\BruteForce\\bj_2798.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bj_2798.cpp",
+              "DocumentMoniker": "E:\\jhlim\\algorithms-cpp\\WhiteBoard\\WhiteBoard\\BruteForce\\bj_2798.cpp",
+              "RelativeDocumentMoniker": "WhiteBoard\\BruteForce\\bj_2798.cpp",
+              "ToolTip": "E:\\jhlim\\algorithms-cpp\\WhiteBoard\\WhiteBoard\\BruteForce\\bj_2798.cpp",
+              "RelativeToolTip": "WhiteBoard\\BruteForce\\bj_2798.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-22T23:43:28.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\jhlim\\algorithms-cpp\\WhiteBoard\\WhiteBoard\\main.cpp",
+              "RelativeDocumentMoniker": "WhiteBoard\\main.cpp",
+              "ToolTip": "E:\\jhlim\\algorithms-cpp\\WhiteBoard\\WhiteBoard\\main.cpp",
+              "RelativeToolTip": "WhiteBoard\\main.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-22T23:25:03.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+DFS = 깊이 우선 탐색
+- 목표가 깊은 단계에 있을 때 효율적
+- 모든 경우의 수를 깊히 파고들때
+- 시간복잡도는 O(V+E)
+
+반드시 외워야하는 코드
+
+vector<int> v[1004];
+bool visited[1004];
+
+void dfs(int here)
+{
+ visited[here] = true;
+ 
+ for(int i : v[here])
+ {
+    if(!visited[i])
+    { 
+      dfs(i);
+    }
+ }
+}
+
+
+bj - 1260 -> 2606 -> 1325 -> 11725

@@ -1,11 +1,13 @@
 #include <iostream>
 #include <vector>
+#include <string>
 #include <algorithm>
 
 using namespace std;
 
-int n = 9;
-vector<int> V;
+int N;
+int Res = 666;
+int Check = 0;
 
 int main()
 {
@@ -13,43 +15,26 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	for (int i = 0; i < n; i++)
+	cin >> N;
+
+	while (true)
 	{
-		int c; 
-		cin >> c;
+		string strRes = to_string(Res);
 
-		V.push_back(c);
-	}
-
-	sort(V.begin(), V.end());
-
-	while (next_permutation(V.begin(), V.end()))
-	{
-		int Sum = 0;
-
-		for (int i = 0; i < 7; i++)
+		if (string::npos != strRes.find("666"))
 		{
-			Sum += V[i];
+			++Check;
 		}
 
-		if (Sum == 100)
+		if (N == Check)
 		{
 			break;
-		}
+		}			
+
+		++Res;
 	}
 
-	vector<int> Ret;
-	for (int i = 0; i < 7; i++)
-	{
-		Ret.push_back(V[i]);
-	}
-
-	sort(Ret.begin(), Ret.end());
-
-	for (int i : Ret)
-	{
-		cout << i << '\n';
-	}
+	cout << Res;
 
 	return 0;
 }

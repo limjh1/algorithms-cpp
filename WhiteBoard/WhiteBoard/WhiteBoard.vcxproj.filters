@@ -108,5 +108,8 @@
     <ClCompile Include="Graph\BFS\HR_TheQuickestWayUp.cpp">
       <Filter>소스 파일\Graph\BFS</Filter>
     </ClCompile>
+    <ClCompile Include="bj_1436.cpp">
+      <Filter>소스 파일\BruteForce</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

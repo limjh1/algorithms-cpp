@@ -5,36 +5,49 @@
 
 using namespace std;
 
-int N;
-int Res = 666;
-int Check = 0;
+vector<int> V[100004];
+bool Visited[100004];
+int Parent[100004];
+int n;
+
+void DFS(int InCur)
+{
+	Visited[InCur] = true;
+
+	for (int Node : V[InCur])
+	{
+		if (!Visited[Node])
+		{
+			Parent[Node] = InCur;
+			DFS(Node);
+		}
+	}
+
+	return;
+}
 
 int main()
 {
-	ios_base::sync_with_stdio(false);
+	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> N;
+	cin >> n;
 
-	while (true)
+	for (int i = 0; i < n - 1; ++i)
 	{
-		string strRes = to_string(Res);
-
-		if (string::npos != strRes.find("666"))
-		{
-			++Check;
-		}
-
-		if (N == Check)
-		{
-			break;
-		}			
-
-		++Res;
+		int a, b;
+		cin >> a >> b;
+		V[a].push_back(b);
+		V[b].push_back(a);
 	}
 
-	cout << Res;
+	DFS(1);
+
+	for (int i = 2; i <= n; ++i)
+	{
+		cout << Parent[i] << '\n';
+	}
 
 	return 0;
 }
